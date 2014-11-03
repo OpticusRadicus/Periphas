@@ -1,0 +1,1 @@
+Creating a modern web app as a Single Page application with the MEAN Stack. Hosting with Express, Database with Mongo, html and client side logic with AngularJs and server side scripting with NodeJs. 
