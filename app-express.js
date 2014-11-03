@@ -5,3 +5,5 @@ app.get('/', function(req, res){
 	res.send(200, 'Hello World');
 
 });
+
+app.listen(8888);
