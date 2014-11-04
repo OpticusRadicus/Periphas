@@ -1,18 +1,15 @@
 var express = require('express')
 var bodyParser = require('body-parser')
+var Post = require('./models/post')
+app.use(require('./controllers/api/posts'))
 
 var app = express()
 app.use(bodyParser.json())
 
-app.get('/api/posts', function (req, res) {
-	res.json ([
-	{
-		username:'Jamie',
-		body: 'Node Rules'
-	}
-	])
-})
+app.get('/', function (req,res){
+	res.sendfile('layouts/posts.html')
+}) 
 
 	app.listen(3000, function () {
-		console.log('Server listining on', 3000)
-	})
+		console.log('Server listening on', 3000)
+})

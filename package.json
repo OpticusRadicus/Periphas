@@ -2,6 +2,7 @@
   "name": "socialApp",
   "dependencies": {
     "body-parser": "^1.9.2",
-    "express": "^4.10.1"
+    "express": "^4.10.1",
+    "mongoose": "^3.8.18"
   }
 }
