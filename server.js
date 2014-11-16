@@ -7,4 +7,4 @@ app.use(require('./controllers'))
 
 	app.listen(3000, function () {
 		console.log('Server listening on', 3000)
-})
+}) 

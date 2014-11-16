@@ -7,3 +7,4 @@ var Post = db.model('Post', {
 
 })
 module.exports = Post
+

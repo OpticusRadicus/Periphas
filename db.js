@@ -4,3 +4,5 @@ mongoose.connect('mongodb://localhost/social', function() {
 })
 
 module.exports = mongoose
+
+// Base database connection logic
